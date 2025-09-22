@@ -1,0 +1,26 @@
+myenv
+# Pytest & common Python build/test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+
+# Virtualenvs
+.venv/
+venv/
+env/
+ENV/
+
+# Build / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Optional caches
+.mypy_cache/
